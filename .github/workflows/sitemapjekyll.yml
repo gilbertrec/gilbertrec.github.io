@@ -19,14 +19,6 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-        
-    - name: Checkout the repo
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0 
     
-    - name: Generate the sitemap
-      id: sitemap
-      uses: cicirello/generate-sitemap@v1
-      with:
-        base-url-path: https://gilbertrec.github.io/
+    - name: generate-sitemap
+      uses: cicirello/generate-sitemap@v1.8.3
