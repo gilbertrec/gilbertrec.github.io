@@ -1,8 +1,7 @@
 
 # Intro
 
-Actually I'm a Researcher of Computer Science at Tampere University.
-I'm a Master Course Student of Computer Science at University of Salerno.
+Actually I'm a Ph.D. Student of Computer Science and Information Technology at <a href="https://www.unisa.it/"> University of Salerno </a>.
 I'm a fan of Computer technologies, currently I focus my interest on Software Engineering for Artificial Intelligence (SE4AI).
 I'm also Game Development Fan, having experience in game engine Unity.
 
@@ -28,6 +27,6 @@ At University of Salerno I have just started my career as Ph.D. Student in Compu
   -  In 2018, I visited: Malta.
   -  In 2019, I visited: Ireland, Uk.
   -  In 2020, I visited: USA.
-  -  Then Covid, so I used Google Maps and I visited Australia and Chile Virtually.
+  -  Then Covid, so I used Google Maps and I visited Australia and <a href="https://www.google.com/maps/place/Coca+Cola/@-18.5294266,-70.2503191,264m/data=!3m1!1e3!4m12!1m6!3m5!1s0x915007dafe38b62f:0x93c4c23347bb5463!2sCoca+Cola!8m2!3d-18.5294266!4d-70.2499322!3m4!1s0x915007dafe38b62f:0x93c4c23347bb5463!8m2!3d-18.5294266!4d-70.2499322">Chile </a> Virtually.
   -  In 2022, I had the opportunity to be a Research Assistant at Tampere University, so I visited: Finland.
   -  In 2022, for attending and presenting at Euromicro Conference SEAA 2022, I visited: Gran Canaria.
