@@ -3,7 +3,7 @@
 
 Hi! I'm Gilberto Recupito, welcome to my website!
 I'm a Computer Scientist, Software Engineer and Researcher.
-Now I'm walking on the dark road of the Research, you can find more information in the next sections.
+Now I'm walking on the dark road of the research, you can find more information in the next sections.
 I'm also Game Development Fan, having experience in game engine Unity.
 
 # Currently
