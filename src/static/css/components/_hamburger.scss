@@ -14,12 +14,16 @@
 
 .hamburger-ul {
   display: block;
-
+  margin-right: 0;
+  background-color: whitesmoke;
+  padding: 0px 0px 1em 0px ;
+  border: solid 1px rgba(160, 160, 160, 0.3);
   li a h3 {
-    border: 0;
+    border: 0 ;
     border-top: dotted 1px rgba(160, 160, 160, 0.3);
     margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
+    padding: 1.5em 0 1em 0;
+    text-align: center;
   }
 
   li a h3:hover {

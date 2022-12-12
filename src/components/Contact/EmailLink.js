@@ -1,18 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
+const messages = [
+  'grecupito@unisa.it',
+  'recupito.gilberto@gmail.com',
+];
+
 // Validates the first half of an email address.
 const validateText = (text) => {
   // NOTE: Passes RFC 5322 but not tested on google's standard.
   // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
+  if (messages[0].startsWith(text)) {
+    return messages[0];
+  }
+  return messages[1];
 };
-
-const messages = [
-  'grecupito att unisa dot italy',
-  'recupito.gilberto att gmail dot community',
-];
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -69,7 +71,7 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}` : ''}>
+      <a href={validateText(message) ? `mailto:${validateText(message)}` : ''}>
         <span>{message}</span>
       </a>
     </div>
