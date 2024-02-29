@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import {HashRouter as Router} from 'react-router-dom';
-import {Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
@@ -22,11 +21,11 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Switch>
         <Route exact path="/" component={Index} />
-        <Route path="/#/about" component={About} />
-        <Route path="/#/projects" component={Projects} />
-        <Route path="/#/stats" component={Stats} />
-        <Route path="/#/contact" component={Contact} />
-        <Route path="/#/resume" component={Resume} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/stats" component={Stats} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
