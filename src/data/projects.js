@@ -23,13 +23,13 @@ const data = [
     link: '/personal_doc/publications/C2.pdf',
   },
   {
-    "title": "When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems",
-    "subtitle": "Investigating the Emergence and Evolution of ML-specific Code Smells",
-    "authors": "G. Recupito, G. Giordano, F. Ferrucci, D. Di Nucci, F. Palomba",
-    "conference": "MSR 2024 - Registered Report Track",
-    "date": "2024-03-12",
-    "desc": "The paper investigates the emergence and evolution of ML-specific code smells, which are sub-optimal implementation solutions applied on ML pipelines that may decrease both the quality and maintainability of ML-enabled systems. The authors present a plan to study ML-specific code smells by empirically analyzing their prevalence in real ML-enabled systems, how they are introduced and removed, and their survivability. They propose conducting an exploratory study, mining a large dataset of ML-enabled systems, and analyzing over 400k commits about 337 projects. They plan to track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector built for this investigation.",
-    "link": "/personal_doc/publications/C3.pdf"
+    title: "When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems",
+    subtitle: "Investigating the Emergence and Evolution of ML-specific Code Smells",
+    authors: "G. Recupito, G. Giordano, F. Ferrucci, D. Di Nucci, F. Palomba",
+    conference: "MSR 2024 - Registered Report Track",
+    date: "2024-03-12",
+    desc: "The paper investigates the emergence and evolution of ML-specific code smells, which are sub-optimal implementation solutions applied on ML pipelines that may decrease both the quality and maintainability of ML-enabled systems. The authors present a plan to study ML-specific code smells by empirically analyzing their prevalence in real ML-enabled systems, how they are introduced and removed, and their survivability. They propose conducting an exploratory study, mining a large dataset of ML-enabled systems, and analyzing over 400k commits about 337 projects. They plan to track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector built for this investigation.",
+    link: "/personal_doc/publications/C3.pdf"
 },
 
 ];
