@@ -32,6 +32,8 @@ const data = [
     link: '/personal_doc/publications/C3.pdf',
 },
 
+
+  
 ];
 
 export default data;
