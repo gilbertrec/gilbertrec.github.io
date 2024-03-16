@@ -14,6 +14,7 @@ const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
+const Activities = lazy(() => import('./pages/Activities'));
 const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
@@ -21,11 +22,12 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Switch>
         <Route exact path="/" component={Index} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/stats" component={Stats} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/#/about" component={About} />
+        <Route path="/#/projects" component={Projects} />
+        <Route path="/#/stats" component={Stats} />
+        <Route path="/#/contact" component={Contact} />
+        <Route path="/#/resume" component={Resume} />
+        <Route path="/#/activities" component={Activities} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
