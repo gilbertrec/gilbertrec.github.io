@@ -31,6 +31,15 @@ const data = [
     desc: 'The paper investigates the emergence and evolution of ML-specific code smells, which are sub-optimal implementation solutions applied on ML pipelines that may decrease both the quality and maintainability of ML-enabled systems. The authors present a plan to study ML-specific code smells by empirically analyzing their prevalence in real ML-enabled systems, how they are introduced and removed, and their survivability. They propose conducting an exploratory study, mining a large dataset of ML-enabled systems, and analyzing over 400k commits about 337 projects. They plan to track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector built for this investigation.',
     link: '/personal_doc/publications/C3.pdf',
   },
+  {
+    title: 'Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic',
+    subtitle: 'Investigating the Emergence and Evolution of ML-specific Code Smells',
+    authors: 'D. La Gamba, G. Iuliano, G. Recupito, G. Giordano, F. Ferrucci, D. Di Nucci, F. Palomba',
+    conference: 'SECUTE 2024 - EASE 2024',
+    date: '2024-04-25',
+    desc: 'This ongoing paper introduces a search-based approach using Genetic Algorithms (GAs) to evolve detection rules and detect intrusion attacks.',
+    link: '/personal_doc/publications/W1.pdf',
+  },
 ];
 
 export default data;
