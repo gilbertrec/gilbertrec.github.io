@@ -1,15 +1,22 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'A Multivocal Literature Review of MLOps Tools and Features',
-    subtitle: 'Literature Review of MLOps tools used in state-of-the-practice and comparison of theirs main features.',
-    image: '/images/projects/mlops.png',
-    authors: 'G.Recupito, F. Pecorelli, G. Catolino, S. Moreschini∗, D. Di Nucci§, F. Palomba§, and D. A. Tamburri,',
-    conference: 'Euromicro SEAA 2022',
-    date: '2022-06-1',
-    desc:
-      'To this aim, we conducted a Multivocal Literature Review (MLR) to (i) extract tools that allow for and support the creation of MLOps pipelines and (ii) analyze their main characteristics and features to provide a comprehensive overview of their value. Overall, we investigate the functionalities of 13 MLOps Tools. Our results show that most MLOps Tools support the same features but apply different approaches that can bring different advantages, depending on user requirements.',
-    link: '/personal_doc/publications/2022113916.pdf',
+    title: 'Technical Debt in AI-Enabled Systems: On the prevalence, severity, impact, and management strategies for code and architecture',
+    subtitle: 'Investigating the Emergence and Evolution of ML-specific Code Smells',
+    authors: 'G.Recupito, F. Pecorelli, G. Catolino, V. Lenarduzzi, D. Taibi, D. Di Nucci, F. Palomba',
+    conference: 'Journal of Systems and Software (JSS) - Elsevier',
+    date: '2024-06-1',
+    desc: '',
+    link: 'https://doi.org/10.1016/j.jss.2024.112151',
+  },
+  {
+    title: 'Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic',
+    subtitle: 'Investigating the Emergence and Evolution of ML-specific Code Smells',
+    authors: 'D. La Gamba, G. Iuliano, G. Recupito, G. Giordano, F. Ferrucci, D. Di Nucci, F. Palomba',
+    conference: 'SECUTE 2024 - EASE 2024',
+    date: '2024-04-25',
+    desc: 'This ongoing paper introduces a search-based approach using Genetic Algorithms (GAs) to evolve detection rules and detect intrusion attacks.',
+    link: '/personal_doc/publications/W1.pdf',
   },
   {
     title: 'Unmasking Data Secrets: An Empirical Investigation into Data Smells and Their Impact on Data Quality',
@@ -32,13 +39,15 @@ const data = [
     link: '/personal_doc/publications/C3.pdf',
   },
   {
-    title: 'Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic',
-    subtitle: 'Investigating the Emergence and Evolution of ML-specific Code Smells',
-    authors: 'D. La Gamba, G. Iuliano, G. Recupito, G. Giordano, F. Ferrucci, D. Di Nucci, F. Palomba',
-    conference: 'SECUTE 2024 - EASE 2024',
-    date: '2024-04-25',
-    desc: 'This ongoing paper introduces a search-based approach using Genetic Algorithms (GAs) to evolve detection rules and detect intrusion attacks.',
-    link: '/personal_doc/publications/W1.pdf',
+    title: 'A Multivocal Literature Review of MLOps Tools and Features',
+    subtitle: 'Literature Review of MLOps tools used in state-of-the-practice and comparison of theirs main features.',
+    image: '/images/projects/mlops.png',
+    authors: 'G.Recupito, F. Pecorelli, G. Catolino, S. Moreschini∗, D. Di Nucci§, F. Palomba§, and D. A. Tamburri,',
+    conference: 'Euromicro SEAA 2022',
+    date: '2022-06-1',
+    desc:
+      'To this aim, we conducted a Multivocal Literature Review (MLR) to (i) extract tools that allow for and support the creation of MLOps pipelines and (ii) analyze their main characteristics and features to provide a comprehensive overview of their value. Overall, we investigate the functionalities of 13 MLOps Tools. Our results show that most MLOps Tools support the same features but apply different approaches that can bring different advantages, depending on user requirements.',
+    link: '/personal_doc/publications/2022113916.pdf',
   },
 ];
 
