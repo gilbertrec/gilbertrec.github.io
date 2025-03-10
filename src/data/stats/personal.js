@@ -27,13 +27,13 @@ const data = [
   {
     key: 'countries',
     label: 'Countries visited',
-    value: 5,
+    value: 11,
 
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'Salerno, Italy',
+    value: 'Montréal, QC, Canada',
   },
 ];
 

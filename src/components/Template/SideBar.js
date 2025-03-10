@@ -15,7 +15,7 @@ const SideBar = () => (
         <h2>Gilberto Recupito</h2>
         <p><a href="mailto:recupito.gilberto@gmail.com">recupito.gilberto@gmail.com</a></p>
       </header>
-      <a href="https://github.com/gilbertrec/gilbertrec.github.io/raw/7256f2a45f03d66f96f393eb56bbce612f31c70c/public/personal_doc/cv/GilbertoRecupitoCV-10-11-2024.pdf" target="_blank" rel="noreferrer">
+      <a href="https://github.com/gilbertrec/gilbertrec.github.io/raw/7256f2a45f03d66f96f393eb56bbce612f31c70c/public/personal_doc/cv/GilbertoRecupitoCV-10-03-2025.pdf" target="_blank" rel="noreferrer">
         <button type="button"> Download My Resume!</button>
       </a>
     </section>

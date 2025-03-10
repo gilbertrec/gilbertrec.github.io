@@ -6,6 +6,7 @@ import Main from '../layouts/Main';
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import ResearchActivities from '../components/Resume/ResearchActivities';
+import OrganizingActivities from '../components/Resume/OrganizingActivities';
 import ResearchFields from '../components/Resume/ResearchFields';
 
 import degrees from '../data/resume/degrees';
@@ -27,6 +28,7 @@ const Resume = () => (
       <Education data={degrees} />
       <Experience data={positions} />
       <ResearchActivities data={activities} />
+      <OrganizingActivities data={activities} />
       <ResearchFields data={fields} />
     </article>
   </Main>
