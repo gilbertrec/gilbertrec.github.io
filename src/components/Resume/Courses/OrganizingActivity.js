@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const OrganizingActivity = ({ data }) => (
   <article className="degree-container">
     <header>
-      <h4 className="degree"><a href={data.link}>{data.title}, {data.year}</a></h4>
+      <h4 className="degree"><a href={data.location}>{data.title}, {data.year}</a></h4>
       <p className="school">{data.role}</p>
     </header>
   </article>
