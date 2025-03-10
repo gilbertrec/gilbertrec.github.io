@@ -7,7 +7,7 @@ const OrganizingActivities = ({ data }) => (
   <div className="education">
     <div className="link-to" id="education" />
     <div className="title">
-      <h3>Research Activities</h3>
+      <h3>Organizing Activities</h3>
     </div>
     {data.map((researchactivity) => (
       <OrganizingActivity

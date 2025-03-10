@@ -13,6 +13,7 @@ import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import fields from '../data/resume/research_fields';
 import activities from '../data/resume/research_activities';
+import organizingActivities from '../data/resume/organizing_activities';
 
 const Resume = () => (
   <Main
@@ -28,7 +29,7 @@ const Resume = () => (
       <Education data={degrees} />
       <Experience data={positions} />
       <ResearchActivities data={activities} />
-      <OrganizingActivities data={activities} />
+      <OrganizingActivities data={organizingActivities} />
       <ResearchFields data={fields} />
     </article>
   </Main>
