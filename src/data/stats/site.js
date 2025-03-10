@@ -13,7 +13,7 @@ const days = (dateA, dateB) => {
  */
 const data = [
   {
-    label: 'Number of Coffe Assumed',
+    label: 'Number of Coffee Assumed',
     key: 'stargazers_count',
     value: 3 * days(date1, date2),
   },

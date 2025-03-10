@@ -2,7 +2,11 @@ import React, { Suspense, lazy } from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
+// eslint-disable-next-line import/order
+import ReactGA from 'react-ga4';
 
+ReactGA.initialize('G-XMB3EZLQ4W'); // Replace with your tracking ID
+ReactGA.send('pageview');
 const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
