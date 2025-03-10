@@ -6,7 +6,7 @@ const OrganizingActivity = ({ data }) => (
   <article className="degree-container">
     <header>
       <h4 className="degree"> <a href={data.link}> {data.title}, {data.year}</a></h4>
-      <p className="school">{data.role}, href={data.location}</p>
+      <p className="school">{data.role}, {data.location}</p>
     </header>
   </article>
 );
