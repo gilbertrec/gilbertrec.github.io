@@ -8,7 +8,7 @@ const Cell = ({ data }) => (
       <header>
         <h3 className="title_published"><a href={data.link}>{data.title}</a></h3>
         <time className="published">{data.authors}</time>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')} - {data.conference}</time>
+        <time className="published">{data.conference}</time>
       </header>
     </article>
   </div>
