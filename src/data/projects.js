@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Into the ML-Universe: An Improved Classification and Characterization of Machine-Learning Projects',
+    subtitle: '',
+    authors: 'V De Martino, G Recupito, G Giordano, D Di Nucci, F Palomba',
+    conference: 'Journal of Systems and Software, 2025',
+    date: '2025-01-01',
+    desc: '',
+    link: 'https://gilbertrec.github.io/personal_doc/publications/J2.pdf',
+  },
+  {
     title: 'Unmasking Data Secrets: An Empirical Investigation into Data Smells and Their Impact on Data Quality',
     subtitle: '',
     authors: 'G Recupito, R Rapacciuolo, D Di Nucci, F Palomba',
