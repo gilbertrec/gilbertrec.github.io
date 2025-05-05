@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import dayjs from 'dayjs';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
