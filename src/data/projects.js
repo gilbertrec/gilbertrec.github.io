@@ -25,7 +25,7 @@ const data = [
     conference: 'International Workshop on Software Quality Assurance for AI (SQA4AI), 2025',
     date: '2025-03-01',
     desc: '',
-    link: 'https://gilbertrec.github.io/personal_doc/publications/J2.pdf',
+    link: 'https://gilbertrec.github.io/personal_doc/publications/W3.pdf',
   },
   {
     title: 'Unmasking Data Secrets: An Empirical Investigation into Data Smells and Their Impact on Data Quality',
