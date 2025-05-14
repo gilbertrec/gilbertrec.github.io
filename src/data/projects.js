@@ -1,9 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems',
+    subtitle: '',
+    authors: 'G Recupito, G Giordano,F Ferrucci, D Di Nucci, F Palomba',
+    conference: 'Empirical Software Engineering, 2025',
+    date: '2025-05-01',
+    desc: '',
+    link: 'https://gilbertrec.github.io/personal_doc/publications/J3.pdf',
+  },
+  {
     title: 'Into the ML-Universe: An Improved Classification and Characterization of Machine-Learning Projects',
     subtitle: '',
-    authors: 'V De Martino, G Recupito, G Giordano, D Di Nucci, F Palomba',
+    authors: 'V De Martino, G Recupito, G Giordano,F Ferrucci, D Di Nucci, F Palomba',
     conference: 'Journal of Systems and Software, 2025',
     date: '2025-04-01',
     desc: '',
