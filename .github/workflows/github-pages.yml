@@ -28,8 +28,10 @@ jobs:
     - name: Generate sitemap
       run: python public/generate_sitemap.py
 
-    - name: Move sitemap to output folder
-      run: cp sitemap.xml dist/
+    - name: Ensure output folder exists and copy sitemap
+      run: |
+          mkdir -p dist
+          cp sitemap.xml dist/
     - name: Build and Deploy
       env:
         NODE_ENV: production
