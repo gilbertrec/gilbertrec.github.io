@@ -25,7 +25,7 @@ jobs:
         python-version: '3.9'
 
     - name: Generate sitemap
-      run: python scripts/generate_sitemap.py
+      run: python public/generate_sitemap.py
 
     - name: Commit sitemap.xml
       run: |
