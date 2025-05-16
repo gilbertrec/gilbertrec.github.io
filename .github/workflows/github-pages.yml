@@ -28,13 +28,8 @@ jobs:
     - name: Generate sitemap
       run: python public/generate_sitemap.py
 
-    - name: Commit sitemap.xml
-      run: |
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git add sitemap.xml
-        git commit -m "Update sitemap.xml" || echo "No changes to commit"
-        git push
+    - name: Move sitemap to output folder
+      run: cp sitemap.xml dist/
     - name: Build and Deploy
       env:
         NODE_ENV: production
