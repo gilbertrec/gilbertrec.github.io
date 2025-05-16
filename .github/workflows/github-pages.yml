@@ -31,7 +31,7 @@ jobs:
     - name: Ensure output folder exists and copy sitemap
       run: |
           mkdir -p dist
-          cp sitemap.xml dist/
+          cp sitemap.xml public/
     - name: Build and Deploy
       env:
         NODE_ENV: production
