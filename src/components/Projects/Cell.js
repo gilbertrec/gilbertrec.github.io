@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+
 const Cell = ({ data }) => (
   <div className="cell-container">
-     <Helmet>
+    <Helmet>
       <meta name="citation_title" content={data.title} />
       <meta name="citation_author" content={data.authors} />
       <meta name="citation_conference_title" content={data.conference} />
