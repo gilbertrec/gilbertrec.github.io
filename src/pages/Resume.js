@@ -26,8 +26,8 @@ const Resume = () => (
           <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
         </div>
       </header>
-      <Education data={degrees} />
       <Experience data={positions} />
+      <Education data={degrees} />
       <ResearchActivities data={activities} />
       <OrganizingActivities data={organizingActivities} />
       <ResearchFields data={fields} />
