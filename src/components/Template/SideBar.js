@@ -23,10 +23,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Gilberto.<br />
-        Actually I&apos;m a Ph.D. Student of Computer Science and Information Technology at <a href="https://www.unisa.it/">University of Salerno</a>.<br />
+        Actually I&apos;m a Postdoctoral Researhcer at the Vrije Universiteit Brussel, working at the <a href="https://soft.vub.ac.be/soft/index.html">SoftLab</a>.<br />
         I&apos;m a fan of Computer technologies, currently I focus my interest on
         Software Engineering for Artificial Intelligence (SE4AI).<br />
-        I&apos;m also Game Development Fan, having experience in game engine <a href="https://unity.com/">Unity.</a>
+        I&apos;m also a Game Development Fan, having experience in game engine <a href="https://unity.com/">Unity.</a>
       </p>
       <ul className="actions">
         <li>
