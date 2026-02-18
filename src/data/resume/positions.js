@@ -1,5 +1,15 @@
 const positions = [
   {
+    company: 'Vrije Universiteit Brussel',
+    position: 'Postdoctoral Researcher',
+    link: 'https://vub.be',
+    daterange: 'February 2026 - current',
+    points: [
+      'Study and analysis of presence and diffuseness of machine learning specific technical debt in state-of-the-practice systems.',
+      'Research about MLOps tools and main features for the support of machine learning pipeline.',
+    ],
+  },
+  {
     company: 'Tampere University',
     position: 'Researcher',
     link: 'https://tuni.fi',
