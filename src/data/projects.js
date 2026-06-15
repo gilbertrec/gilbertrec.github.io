@@ -1,5 +1,13 @@
-// TODO Add a couple lines about each project
 const data = [
+  {
+    title: 'Smarter, but Not Safer: An Empirical Analysis of the Functional-Security Gap in Evolving LLMs',
+    subtitle: '',
+    authors: 'A Cannavale, G Recupito, C De Roover, F Palomba, A De Lucia',
+    conference: 'International Conference on Software Maintenance and Evolution, 2026',
+    date: '2026-06-01',
+    desc: '',
+    link: 'https://gilbertrec.github.io/personal_doc/publications/C4.pdf',
+  },
   {
     title: 'When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems',
     subtitle: '',

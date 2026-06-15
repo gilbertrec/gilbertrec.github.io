@@ -6,42 +6,45 @@
 // Duration.
 	$duration: (
 		menu:						0.5s,
-		transition:					0.2s
+		transition:					0.3s
 	);
 
 // Size.
 	$size: (
 		element-height:				2.75em,
-		element-margin:				2em,
-		section-spacing:			3em,
-		section-spacing-small:		1.5em,
+		element-margin:				1.6em,
+		section-spacing:			2.5em,
+		section-spacing-small:		1.25em,
 		menu:						25em
 	);
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:				('Courier New', monospace),
-		family-heading:				('Raleway', Helvetica, sans-serif),
+		family:						('Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif),
+		family-fixed:				('JetBrains Mono', 'Fira Code', 'Courier New', monospace),
+		family-heading:				('Space Grotesk', 'Inter', sans-serif),
 		weight:						400,
-		weight-bold:				700,
-		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
-		kerning-heading:			0.25em
+		weight-bold:				600,
+		weight-heading:				500,
+		weight-heading-bold:		700,
+		weight-heading-extrabold:	700,
+		kerning-heading:			0.04em
 	);
 
 // Palette.
 	$palette: (
-		bg:							#f4f4f4,
+		bg:							#ffffff,
 		bg-custom:					#19325c,
 		bg-alt:						#f4f4f4,
+		bg-surface:					rgba(25, 50, 92, 0.03),
 		dark-tourquoise:			#19325c,
-		fg:							#646464,
+		fg:							#5a5a5a,
 		fg-bold:					#19325c,
-		fg-light:					#aaaaaa,
+		fg-light:					#999999,
 		border:						rgba(160,160,160,0.3),
 		border-bg:					rgba(160,160,160,0.075),
 		border-alt:					rgba(160,160,160,0.65),
 		accent:						#eb8a02,
+		accent-secondary:			#19325c,
+		accent-warm:				#eb8a02,
 	);

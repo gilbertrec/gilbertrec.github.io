@@ -10,6 +10,8 @@
 		border: solid 1px _palette(border);
 		margin-bottom: _size(element-margin);
 		padding: 1.5em;
+		background: _palette(bg);
+		border-radius: 12px;
 
 		> :last-child,
 		> :last-child > :last-child,
@@ -21,5 +23,6 @@
 			border: 0;
 			border-radius: 0;
 			padding: 0;
+			background: transparent;
 		}
 	}

@@ -15,12 +15,9 @@
 			display: none;
 		}
 
-		&.prefix {
-		}
-
-		&.suffix {
+		&.style2 {
 			&:before {
-				float: right;
+				color: _palette(fg-light);
 			}
 		}
 	}

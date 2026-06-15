@@ -1,6 +1,16 @@
-// Not found page (/*)
+/* Not Found */
 
-.not-found {
-  text-align: center;
-  margin: 5em;
+#notFound {
+	text-align: center;
+
+	h2 {
+		font-size: 2em;
+		color: _palette(fg-bold);
+		margin-bottom: 0.5em;
+	}
+
+	p {
+		color: _palette(fg-light);
+		font-size: 1.1em;
+	}
 }

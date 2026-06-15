@@ -10,6 +10,7 @@
 		h2 {
 			font-size: 0.8em;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			color: _palette(fg-bold);
 		}
 
 		h3 {
@@ -17,6 +18,8 @@
 		}
 
 		p {
-			font-size: 0.9em;
+			font-size: 0.85em;
+			color: _palette(fg);
+			line-height: 1.7;
 		}
 	}

@@ -9,6 +9,15 @@
 	#footer {
 		.icons {
 			color: _palette(fg-light);
+
+			a {
+				transition: color 0.3s ease, transform 0.3s ease;
+
+				&:hover {
+					color: _palette(accent) !important;
+					transform: translateY(-2px);
+				}
+			}
 		}
 
 		.copyright {

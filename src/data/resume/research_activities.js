@@ -1,44 +1,56 @@
 const activities = [
   {
+    title: 'IEEE Transactions on Software Engineering',
+    role: 'Reviewer',
+    year: '2026',
+    link: 'https://www.computer.org/csdl/journal/ts',
+  },
+  {
     title: 'ACM Transactions on Software Engineering and Methodology',
     role: 'Reviewer',
-    year: '2023-2025',
+    year: '2023-2026',
     link: 'https://dl.acm.org/journal/tosem',
   },
   {
     title: 'Empirical Software Engineering',
     role: 'Reviewer',
-    year: '2024, 2025',
+    year: '2024-2026',
     link: 'https://www.springer.com/journal/10664',
   },
   {
     title: 'SoftwareX',
     role: 'Reviewer',
-    year: '2024',
+    year: '2024-2026',
     link: 'https://www.sciencedirect.com/journal/softwarex',
   },
   {
     title: 'Journal of Software: Evolution and Process',
     role: 'Reviewer',
-    year: '2024',
+    year: '2024-2026',
     link: 'https://onlinelibrary.wiley.com/journal/20477481',
   },
   {
     title: 'ACM Conference On Computer-Supported Cooperative Work And Social Computing',
     role: 'Reviewer',
-    year: '2023, 2024',
+    year: '2023-2025',
     link: 'https://cscw.acm.org/',
+  },
+  {
+    title: 'IEEE Software',
+    role: 'Reviewer',
+    year: '2025-2026',
+    link: 'https://www.computer.org/csdl/magazine/so',
   },
   {
     title: 'Journal of Systems and Software',
     role: 'Reviewer',
-    year: '2023, 2024',
+    year: '2023-2026',
     link: 'https://www.sciencedirect.com/journal/journal-of-systems-and-software',
   },
   {
     title: 'Science of Computer Programming',
     role: 'Reviewer',
-    year: '2023',
+    year: '2023-2026',
     link: 'https://www.sciencedirect.com/journal/science-of-computer-programming',
   },
   {

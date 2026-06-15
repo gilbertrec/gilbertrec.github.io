@@ -4,7 +4,7 @@
 
   .email-at{
     
-    margin: 3em 0;
+    margin: 2.5em 0;
     
     p {
       margin: 0;
@@ -12,6 +12,19 @@
     
     .inline-container {
       width: 100%;
+      
+      a {
+        color: _palette(accent);
+        font-size: 1.1em;
+        font-weight: 500;
+        font-family: _font(family-heading);
+        border-bottom: none;
+        transition: color 0.3s ease;
+        
+        &:hover {
+          color: darken(#eb8a02, 10%) !important;
+        }
+      }
 
       span:focus {
         display: inline-block;

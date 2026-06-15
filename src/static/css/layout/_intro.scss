@@ -15,20 +15,30 @@
 			position: relative;
 
 			img {
-				width: 10em;
+				width: 9em;
 				border-radius: 50%;
 				display: block;
+				border: 3px solid rgba(25, 50, 92, 0.25);
+				box-shadow: 0 4px 15px rgba(25, 50, 92, 0.1);
+				transition: border-color 0.4s ease, box-shadow 0.4s ease;
+			}
+
+			&:hover img {
+				border-color: _palette(accent);
+				box-shadow: 0 4px 20px rgba(235, 138, 2, 0.2);
 			}
 		}
 
 		header {
 			h2 {
-				font-size: 1.5em;
-				font-weight: _font(weight-heading-extrabold);
+				font-size: 1.35em;
+				font-weight: _font(weight-heading-bold);
+				color: _palette(fg-bold);
 			}
 
 			p {
-				font-size: 0.8em;
+				font-size: 0.75em;
+				color: _palette(fg-light);
 			}
 		}
 
@@ -38,11 +48,11 @@
 
 			header {
 				h2 {
-					font-size: 2em;
+					font-size: 1.75em;
 				}
 
 				p {
-					font-size: 0.7em;
+					font-size: 0.65em;
 				}
 			}
 		}
@@ -57,11 +67,15 @@
 
 			.logo {
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
+
+				img {
+					width: 7em;
+				}
 			}
 
 			header {
 				h2 {
-					font-size: 1.25em;
+					font-size: 1.15em;
 				}
 
 				> :last-child {

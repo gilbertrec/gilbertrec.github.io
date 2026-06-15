@@ -4,10 +4,20 @@
 
   p {
     margin: auto;
+    line-height: 1.75;
   }
 
   h1 {
     font-size: .8em;
-    margin-top: 3em;
+    margin-top: 2.5em;
+    color: _palette(fg-bold);
+    position: relative;
+    padding-bottom: 0.5em;
+  }
+
+  ul {
+    li {
+      margin-bottom: 0.3em;
+    }
   }
 }

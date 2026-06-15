@@ -1,10 +1,11 @@
 const positions = [
   {
-    company: 'Vrije Universiteit Brussel',
+    company: 'Vrije Universiteit Brussel (VUB)',
     position: 'Postdoctoral Researcher',
-    link: 'https://vub.be',
-    daterange: 'February 2026 - current',
+    link: 'https://www.vub.be/',
+    daterange: '2026-Present',
     points: [
+      'Postdoctoral researcher in the Software Languages Lab.',
     ],
   },
   {

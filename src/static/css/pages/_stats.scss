@@ -1,7 +1,12 @@
-// About page (/about)
+/* Stats */
 
 #stats {
-  table {
-    width: 100%;
-  }
+	h3 {
+		color: _palette(fg-bold);
+		text-align: center;
+		margin-bottom: 1.5em;
+		font-size: 0.85em;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
 }

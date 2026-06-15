@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 const messages = [
-  'grecupito@unisa.it',
+  'gilberto.recupito@vub.be',
   'recupito.gilberto@gmail.com',
 ];
 
@@ -30,7 +30,7 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return () => { }; // pass linter
   }, [delay]);
 };
 

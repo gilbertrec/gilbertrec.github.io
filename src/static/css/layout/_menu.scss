@@ -45,7 +45,7 @@
 
 			> li {
 				border: 0;
-				border-top: dotted 1px _palette(border);
+				border-top: dotted 1px rgba(255, 255, 255, 0.2);
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 0;
 
@@ -56,6 +56,7 @@
 					h3 {
 						@include vendor('transition', 'color #{_duration(transition)} ease');
 						font-size: 0.7em;
+						color: white;
 					}
 
 					p {
@@ -63,10 +64,10 @@
 						font-size: 0.6em;
 						font-weight: _font(weight-heading);
 						letter-spacing: _font(kerning-heading);
-						letter-spacing: _size(letter-spacing-alt);
 						margin-bottom: 0;
 						text-decoration: none;
 						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.6);
 					}
 
 					&:hover {

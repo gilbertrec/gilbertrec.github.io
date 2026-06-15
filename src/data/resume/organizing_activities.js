@@ -1,4 +1,12 @@
 const activities = [
+
+  {
+    title: 'Workshop on Software Quality Assurance for Artificial Intelligence (SQA4AI), co-located with SANER',
+    role: 'Organizer',
+    year: '2026',
+    location: 'Cyprus, Limassol',
+    link: 'https://sqa4ai-ws.github.io/', // Specific link not found; please update when available.
+  },
   {
     title: 'International Conference on AI Foundation Models and Software Engineering (FORGE)',
     role: 'Program Committee',

@@ -19,15 +19,43 @@
 	}
 
 	.education {
+		margin-bottom: 2em;
 
 		.title {
 			text-align: center;
-			margin-bottom: 2em;
+			margin-bottom: 1.5em;
+			position: relative;
+
+			h3 {
+				color: _palette(fg-bold);
+				font-size: 0.85em;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+			}
 		}
 	}
 	.experience {
+		margin-bottom: 2em;
+
 		.title {
 			text-align: center;
+			margin-bottom: 1.5em;
+
+			h3 {
+				color: _palette(fg-bold);
+				font-size: 0.85em;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+
+				&::after {
+					content: '';
+					display: block;
+					width: 50px;
+					height: 2px;
+					background: linear-gradient(90deg, _palette(accent), transparent);
+					margin: 0.5em auto 0;
+				}
+			}
 		}
 		.job {
 			margin: 1em;
@@ -38,11 +66,30 @@
 	}
 
 	.jobs-container {
+		background: _palette(bg);
+		border: 1px solid _palette(border);
+		border-radius: 10px;
+		padding: 1.25em;
+		margin-bottom: 1em;
+		transition: border-color 0.3s ease, transform 0.2s ease;
+
+		&:hover {
+			border-color: _palette(accent);
+			transform: translateX(4px);
+		}
+
+		header {
+			h4 {
+				color: _palette(fg-bold);
+				font-size: 0.75em;
+			}
+		}
+
 		.points {
 			li {
 				margin: 0;
-				padding: 0;
-					font-size: .9em;
+				padding: 0.2em 0;
+				font-size: .85em;
 			}
 		}
 	}
@@ -80,33 +127,49 @@
 
 .daterange {
 	margin-bottom: .2em;
+	color: _palette(fg-light);
+	font-size: 0.85em;
 }
 
 .degree-container {
+	background: _palette(bg);
+	border: 1px solid _palette(border);
+	border-radius: 10px;
+	padding: 1.25em;
+	margin-bottom: 1em;
+	transition: border-color 0.3s ease, transform 0.2s ease;
+
+	&:hover {
+		transform: translateX(4px);
+	}
+
 	h4 {
-		font-weight: normal;
+		font-weight: 500;
+		color: _palette(fg-bold);
 	}
 
 	.degree {
 		margin-bottom: .1em;
 		text-transform: none;
-		letter-spacing: 0.16em;
+		letter-spacing: 0.08em;
 		font-size: .8em;
 	}
 
 	.school {
 		text-transform: none;
-		padding-top: 0.3em;
-		margin-bottom: 1em;
+		padding-top: 0.2em;
+		margin-bottom: 0.8em;
+		color: _palette(fg-light);
+		font-size: 0.85em;
 	}
 
 	.description {
-		padding-top: 1em;
+		padding-top: 0.8em;
 		text-transform: none;
-		letter-spacing: 0.15em;
-		margin-bottom: 1em;
-		line-height: 1.5em;
-		font-size: .7em;
+		letter-spacing: 0.02em;
+		margin-bottom: 0.8em;
+		line-height: 1.6em;
+		font-size: .75em;
 	}
 }
 
@@ -115,10 +178,10 @@
 }
 .courses .course-name {
 	display: inline;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: _font(family-heading);
 	font-size: 0.7em;
   font-weight: 400;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.1em;
   line-height: 2.5;
   margin-top: -1em;
   text-transform: uppercase;
@@ -130,7 +193,6 @@
 
 .course-dot {
 	display: inline;
-	// display: none;
 }
 
 @include breakpoint(small) {

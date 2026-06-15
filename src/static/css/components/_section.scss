@@ -14,12 +14,15 @@
 
 	header {
 		p {
-			font-family: _font(family-heading);
-			font-size: 0.7em;
-			font-weight: _font(weight-heading);
-			letter-spacing: _font(kerning-heading);
-			line-height: 2.5;
-			margin-top: -1em;
-			text-transform: uppercase;
+			color: _palette(fg-light);
+			position: relative;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			font-style: italic;
+		}
+
+		h2 + p {
+			font-size: 0.85em;
+			margin-top: (_size(element-margin) * -0.35);
+			line-height: 1.75;
 		}
 	}
