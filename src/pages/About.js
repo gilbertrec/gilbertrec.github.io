@@ -22,7 +22,6 @@ const About = () => (
         <header>
           <div className="title">
             <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
-            <p>Biography and curriculum vitae</p>
           </div>
         </header>
         <ResumeProfile />

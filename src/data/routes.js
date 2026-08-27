@@ -6,7 +6,7 @@ const routes = [
   },
   {
     label: 'About',
-    path: '/about',
+    path: '/',
   },
   {
     label: 'Publications',

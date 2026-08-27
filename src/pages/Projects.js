@@ -81,7 +81,6 @@ const Projects = () => {
         <section className="work-section" id="selected-publications">
           <div className="work-section-heading">
             <h3>Selected publications</h3>
-            <p>A representative selection of my research.</p>
           </div>
           <ul className="publication-list selected-publication-list">
             {selectedPublications.map((publication) => (

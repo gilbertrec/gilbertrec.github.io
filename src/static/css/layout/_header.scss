@@ -240,6 +240,13 @@ body {
 	}
 }
 
+// Override the desktop navbar's inline list items inside the mobile drawer.
+#header .bm-menu .hamburger-ul li {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+}
+
 #header .index-link {
 	z-index: 3;
 }
