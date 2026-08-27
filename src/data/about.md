@@ -1,33 +1,72 @@
+# Biography
 
-# Intro
+I am Gilberto Recupito, a software-engineering researcher working at the
+intersection of artificial intelligence, software quality, and empirical
+software engineering. I am currently a Postdoctoral Researcher in the Software
+Languages Lab at [Vrije Universiteit Brussel](https://www.vub.be/), where I
+work with Prof. Coen De Roover on the quality and security of LLM- and
+agent-assisted software development.
 
-Hi! I'm Gilberto Recupito, welcome to my website!
-I'm a Computer Scientist, Software Engineer and Researcher.
-Now I'm walking on the dark road of the research, you can find more information in the next sections.
-I'm also Game Development Fan, having experience in game engine Unity.
+**Research.** My research focuses on Software Engineering for Artificial
+Intelligence (SE4AI). I study technical debt in AI-enabled systems, MLOps and
+the engineering of machine-learning pipelines, ML-specific code and data
+quality, and the use of large language models in software engineering. My work
+combines empirical studies, mining software repositories, and tool-oriented
+research to produce evidence that is useful to both researchers and
+practitioners.
 
-# Currently
+**Current work.** At VUB, I contribute to the VLAIO COOCK+ CodeGuard project on
+secure code generation with LLMs and agents, combining research and
+knowledge-sharing activities with academic and industry partners.
 
-At <a href="https://www.unisa.it/">University of Salerno</a> I have just started my career as Ph.D. Student in Computer Science and Information Technologies. In this moment I currently focus my studies in SE4AI, in detail I study Machine Learning Specific Technical Debt, and MLOps.
+**Education and experience.** I received my Ph.D. in Computer Science from the
+University of Salerno in 2025 with an *Excellent* evaluation, supervised by
+Profs. Fabio Palomba and Dario Di Nucci. During my research career, I have held
+positions at Tampere University, the German Aerospace Center (DLR), and École
+Polytechnique de Montréal.
 
-# I like
+**Academic service.** I contribute as a reviewer, organizer, guest editor, and
+program-committee member. I organize the SQA4AI workshop, serve as Guest Editor
+for a *Journal of Systems and Software* special issue on software quality
+assurance for AI, and received the FORGE Distinguished Reviewer Award in 2026.
+I also teach software-engineering and AI courses and advise bachelor’s,
+master’s, and Ph.D. research.
 
-   - Playing Videogames
-   - Playing Ukulele
-   - Sea
-   - Create models and videogames in Unity
-   - Create models from fotography with Zephyr
-   - Summer
-   - Travel
-   - Discover new Things!
+# News
 
-# Travel / Geography
+<table class="news-table" aria-label="Recent news">
+  <tbody>
+    <tr>
+      <td>2026</td>
+      <td>Our paper <a href="#/projects"><em>Smarter, but Not Safer: An Empirical Analysis of the Functional-Security Gap in Evolving LLMs</em></a> was accepted at ICSME 2026.</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Received the <strong>Distinguished Reviewer Award</strong> at FORGE 2026.</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Organized the <a href="https://sqa4ai-ws.github.io/">3rd Workshop on Software Quality Assurance for Artificial Intelligence (SQA4AI)</a> in Limassol, Cyprus.</td>
+    </tr>
+    <tr>
+      <td>Feb 2026</td>
+      <td>Joined <a href="https://www.vub.be/">Vrije Universiteit Brussel</a> as a Postdoctoral Researcher in the Software Languages Lab.</td>
+    </tr>
+    <tr>
+      <td>2025</td>
+      <td>Completed a Ph.D. in Computer Science at the University of Salerno with an <strong>Excellent</strong> evaluation.</td>
+    </tr>
+  </tbody>
+</table>
 
-  -  I am from originally from Salerno, Italy. I have since lived in Fisciano, a small city in Salerno.
-  -  I've been to ~ 6 countries, most of them for holiday.
-  -  In 2018, I visited: Malta.
-  -  In 2019, I visited: Ireland, Uk.
-  -  In 2020, I visited: USA.
-  -  Then Covid, so I used Google Maps and I visited Australia and [Chile](https://www.google.com/maps/place/Coca+Cola/@-18.5294266,-70.2503191,264m/data=!3m1!1e3!4m12!1m6!3m5!1s0x915007dafe38b62f:0x93c4c23347bb5463!2sCoca+Cola!8m2!3d-18.5294266!4d-70.2499322!3m4!1s0x915007dafe38b62f:0x93c4c23347bb5463!8m2!3d-18.5294266!4d-70.2499322)</a> virtually.
-  -  In 2022, I had the opportunity to be a Research Assistant at Tampere University, so I visited: Finland.
-  -  In 2022, for attending and presenting at Euromicro Conference SEAA 2022, I visited: Gran Canaria.
+# Selected publications
+
+1. **Smarter, but Not Safer:** An Empirical Analysis of the Functional-Security
+   Gap in Evolving LLMs. *ICSME, 2026.*
+2. **Into the ML-Universe:** An Improved Classification and Characterization of
+   Machine-Learning Projects. *Journal of Systems and Software, 2025.*
+3. **When Code Smells Meet ML:** On the Lifecycle of ML-Specific Code Smells in
+   ML-Enabled Systems. *Empirical Software Engineering, 2025.*
+4. **Technical Debt in AI-Enabled Systems:** On the Prevalence, Severity,
+   Impact, and Management Strategies for Code and Architecture. *Journal of
+   Systems and Software, 2024.*

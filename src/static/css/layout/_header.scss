@@ -213,12 +213,47 @@ body {
 	font-family: _font(family-heading);
 }
 
+.bm-menu .hamburger-ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+		padding: 0.9em 0;
+	}
+
+	a,
+	h3 {
+		color: #fff !important;
+	}
+
+	h3 {
+		font-size: 0.82em;
+		letter-spacing: 0.06em;
+		margin: 0;
+	}
+
+	a:hover h3,
+	a:focus h3 {
+		color: _palette(accent) !important;
+	}
+}
+
 #header .index-link {
 	z-index: 3;
 }
 
 #header .main .menu {
 	cursor: pointer;
+}
+
+#header .hamburger-container .menu-hover {
+	color: #fff;
+
+	&:hover {
+		color: _palette(accent);
+	}
 }
 
 #header .main .close-menu {

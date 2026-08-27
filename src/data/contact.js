@@ -28,7 +28,7 @@ const data = [
     icon: faTwitter,
   },
   {
-    link: 'mailto:recupito.gilberto@gmail.com',
+    link: 'mailto:gilberto.recupito@vub.be',
     label: 'Email',
     icon: faEnvelope,
   },

@@ -12,7 +12,7 @@ const ResearchActivities = ({ data }) => (
     {data.map((researchactivity) => (
       <ResearchActivity
         data={researchactivity}
-        key={data.title}
+        key={`${researchactivity.title}-${researchactivity.year}`}
       />
     ))}
   </div>

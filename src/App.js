@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  HashRouter as Router, Redirect, Switch, Route,
+} from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 // eslint-disable-next-line import/order
@@ -17,8 +19,8 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
-const Resume = lazy(() => import('./pages/Resume'));
-const Stats = lazy(() => import('./pages/Stats'));
+const Service = lazy(() => import('./pages/Service'));
+const Teaching = lazy(() => import('./pages/Teaching'));
 
 const App = () => (
   <Router basename={PUBLIC_URL}>
@@ -27,9 +29,10 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/stats" component={Stats} />
+        <Route path="/service" component={Service} />
+        <Route path="/teaching" component={Teaching} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Redirect exact from="/resume" to="/about" />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

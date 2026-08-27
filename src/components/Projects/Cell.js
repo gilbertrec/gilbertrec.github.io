@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 
 const Cell = ({ data }) => (
-  <div className="cell-container">
+  <li className="publication-reference">
     <Helmet>
       <meta name="citation_title" content={data.title} />
       <meta name="citation_author" content={data.authors} />
@@ -11,14 +11,19 @@ const Cell = ({ data }) => (
       <meta name="citation_publication_date" content={data.date} />
       <meta name="citation_pdf_url" content={data.link} />
     </Helmet>
-    <article className="mini-post">
-      <header>
-        <h3 className="title_published"><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{data.authors}</time>
-        <time className="published">{data.conference}</time>
-      </header>
-    </article>
-  </div>
+    <span className="reference-number" aria-hidden="true" />
+    <div className="publication-reference-content">
+      <p className="publication-title">“<a href={data.link}>{data.title}</a>.”</p>
+      <p className="publication-details publication-authors">{data.authors}.</p>
+      <p className="publication-details publication-venue">
+        <em>{data.conference}.</em>
+      </p>
+    </div>
+    <div className="publication-tags" aria-label="Publication classification">
+      <span className="publication-venue-tag">{data.tags[0]}</span>
+      {data.code && <span className="publication-code-tag">{data.code}</span>}
+    </div>
+  </li>
 );
 
 Cell.propTypes = {
@@ -26,10 +31,10 @@ Cell.propTypes = {
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
     authors: PropTypes.string,
-    image: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired,
     conference: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+    code: PropTypes.string,
   }).isRequired,
 };
 

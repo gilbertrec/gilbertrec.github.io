@@ -13,25 +13,24 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Gilberto Recupito</h2>
-        <p><a href="mailto:recupito.gilberto@gmail.com">recupito.gilberto@gmail.com</a></p>
+        <p><a href="mailto:gilberto.recupito@vub.be">gilberto.recupito@vub.be</a></p>
       </header>
-      <a href="https://gilbertrec.github.io/personal_doc/cv/GilbertoRecupitoCV-12-12-2025.pdf" target="_blank" rel="noreferrer">
-        <button type="button"> Download My Resume!</button>
+      <a href={`${PUBLIC_URL}/personal_doc/cv/GilbertoRecupitoCV-11-08-2026.pdf`} target="_blank" rel="noreferrer">
+        <button type="button">Download CV · August 2026</button>
       </a>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Gilberto.<br />
-        Actually I&apos;m a Postdoctoral Researcher at <a href="https://www.vub.be/">Vrije Universiteit Brussel</a>.<br />
-        I am a fan of Computer technologies, currently I focus my interest on
-        Software Engineering for Artificial Intelligence (SE4AI) and quality assurance
-        of LLM-generated code (LLM4SE).<br />
-        I&apos;m also Game Development Fan, having experience in game engine <a href="https://unity.com/">Unity.</a>
+      <p>Postdoctoral Researcher at{' '}
+        <a href="https://www.vub.be/">Vrije Universiteit Brussel</a>, working at
+        the intersection of software engineering and artificial intelligence.
+        My research focuses on AI technical debt, MLOps, and the quality and
+        security of LLM- and agent-assisted development.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          <Link to="/about" className="button">Learn More</Link>
         </li>
       </ul>
     </section>

@@ -1,21 +1,24 @@
 const degrees = [
   {
     school: 'University of Salerno',
-    degree: 'Ph.D Computer Science and Information Technologies',
+    degree: 'Ph.D. in Computer Science',
     link: 'https://unisa.it',
-    year: 'Nov 2022 - Dec 2025',
+    year: '2025 · Excellent',
+    detail: 'Advisors: Profs. Fabio Palomba and Dario Di Nucci',
   },
   {
     school: 'University of Salerno',
-    degree: 'M.S. Computer Science: Software Engineering and IT Management',
+    degree: 'M.Sc. in Computer Science',
     link: 'https://unisa.it',
-    year: '2019 - 2021',
+    year: '2022 · Magna cum laude',
+    detail: 'Advisor: Prof. Fabio Palomba',
   },
   {
     school: 'University of Salerno',
-    degree: 'B.S. Computer Science',
+    degree: 'B.Sc. in Computer Science',
     link: 'https://unisa.it',
-    year: 2019,
+    year: '2019',
+    detail: 'Advisor: Prof. Vittorio Scarano',
   },
 ];
 

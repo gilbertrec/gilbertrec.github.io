@@ -1,31 +1,25 @@
 const fields = [
   {
-    title: 'Source code Quality and Security in LLM Code Generation',
-    description: 'LLM Code Generation refers to the use of Large Language Models '
-      + 'systems to automatically generate code for software applications. '
-      + 'This technology has gained significant traction in recent years '
-      + 'due to the rapid advancements in AI and machine learning, '
-      + 'enabling developers to write code more efficiently and effectively.',
+    title: 'AI Technical Debt',
+    description: 'Characterizing and mitigating system-level, data-centric, and '
+      + 'ML-specific sources of technical debt in AI-enabled systems to improve '
+      + 'their reliability and maintainability.',
   },
   {
-    title: 'Technical Debt in AI-enabled systems',
-    description: 'The definition of technical debt is highly analyzed in traditional '
-      + 'systems (i.e., a set of sub-optimal design choices that can affect negatively the data and the '
-      + 'quality of the system). However, recent studies started the exploration of technical debt present in '
-      + 'machine learning and artificial intelligence systems, called AI Technical Debt (AITD). My '
-      + 'research activities aims to define a full defined taxonomy that describes the several instances '
-      + 'that can cause quality issues. During my thesis experience, I have analyzed the (i) frequency, '
-      + '(ii) severity and (iii) impact of the instances of AITD from the developer’s perception.',
+    title: 'MLOps and Engineering of ML Pipelines',
+    description: 'Defining practices, features, and tools for developing, automating, '
+      + 'and operating robust machine-learning pipelines, alongside empirical '
+      + 'characterization of ML-model producers and consumers.',
   },
   {
-    title: 'MLOps',
-    description: 'DevOps has become increasingly widespread, with companies employing its methods '
-      + 'in different fields in order to automate the process. In this context, MLOps automates '
-      + 'Machine Learning pipelines by applying DevOps practices. My research activities focuses '
-      + 'on the discovery and the definition of practices, features and tools that can support the ML '
-      + 'practitioners during the execution of a ML pipeline. During my research experience, I have '
-      + 'analyzed the features that MLOps tools provide to support the practitioner to automate the '
-      + 'stages that compose a ML Pipeline',
+    title: 'LLM4SE and Agentic AI',
+    description: 'Investigating how large language models support software engineering, '
+      + 'including prompt patterns, code-quality evaluation, and secure code generation.',
+  },
+  {
+    title: 'Empirical Software Engineering and MSR',
+    description: 'Applying empirical methods and mining software repositories to '
+      + 'understand how software and AI-intensive systems are built and maintained.',
   },
 ];
 

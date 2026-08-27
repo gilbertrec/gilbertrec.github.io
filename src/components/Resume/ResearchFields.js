@@ -12,7 +12,7 @@ const ResearchFields = ({ data }) => (
     {data.map((researchField) => (
       <ResearchField
         data={researchField}
-        key={data.title}
+        key={researchField.title}
       />
     ))}
   </div>

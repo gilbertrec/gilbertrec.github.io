@@ -6,6 +6,7 @@ const Degree = ({ data }) => (
     <header>
       <h4 className="degree">{data.degree}</h4>
       <p className="school"><a href={data.link}>{data.school}</a>, {data.year}</p>
+      {data.detail && <p className="degree-detail">{data.detail}</p>}
     </header>
   </article>
 );
@@ -15,7 +16,8 @@ Degree.propTypes = {
     degree: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
     school: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
+    year: PropTypes.string.isRequired,
+    detail: PropTypes.string,
   }).isRequired,
 };
 

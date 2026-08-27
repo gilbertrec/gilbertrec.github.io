@@ -1,6 +1,103 @@
 /* Resume */
 
+.markdown,
 #resume {
+	.resume-heading {
+		border-top: 1px solid _palette(border);
+		margin-top: 3em;
+		padding-top: 0.5em;
+
+		h1 {
+			margin-bottom: 0.25em;
+		}
+
+		p {
+			color: _palette(fg-light);
+			font-size: 0.8em;
+			margin-bottom: 2em;
+		}
+	}
+
+	.resume-profile {
+		background: linear-gradient(135deg, _palette(dark-tourquoise), #285184);
+		border-radius: 14px;
+		color: rgba(255, 255, 255, 0.82);
+		margin-bottom: 1em;
+		padding: 2.25em;
+
+		h3 {
+			color: #fff;
+			font-size: 2em;
+			letter-spacing: -0.03em;
+			margin-bottom: 0.4em;
+			text-transform: none;
+		}
+
+		.resume-kicker {
+			color: #f6a72d;
+			font-family: _font(family-heading);
+			font-size: 0.68em;
+			font-weight: 700;
+			letter-spacing: 0.12em;
+			margin-bottom: 0.65em;
+			text-transform: uppercase;
+		}
+	}
+
+	.resume-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75em;
+		margin-top: 1.5em;
+
+		.button {
+			background: transparent;
+			border-color: rgba(255, 255, 255, 0.45);
+			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+			color: #fff !important;
+			margin: 0;
+
+			&.special {
+				background: _palette(accent);
+				box-shadow: none;
+			}
+		}
+	}
+
+	.resume-details {
+		display: grid;
+		gap: 1px;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin: 1em 0 3em;
+		overflow: hidden;
+
+		div {
+			background: _palette(bg-surface);
+			padding: 1em 1.15em;
+		}
+
+		span,
+		strong,
+		a {
+			display: block;
+		}
+
+		span {
+			color: _palette(fg-light);
+			font-family: _font(family-heading);
+			font-size: 0.62em;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			margin-bottom: 0.3em;
+			text-transform: uppercase;
+		}
+
+		strong,
+		a {
+			font-size: 0.85em;
+			font-weight: 600;
+		}
+	}
 
 	.link-to {
 		position: relative;
@@ -32,6 +129,25 @@
 				letter-spacing: 0.08em;
 				text-transform: uppercase;
 			}
+		}
+	}
+
+	.degree-detail {
+		font-size: 0.8em;
+		margin: -0.35em 0 0;
+	}
+
+	.resume-more {
+		border: 1px solid _palette(border);
+		border-left: 4px solid _palette(accent);
+		border-radius: 10px;
+		margin-top: 3em;
+		padding: 1.5em;
+
+		h3 {
+			font-size: 1em;
+			margin-bottom: 0.5em;
+			text-transform: none;
 		}
 	}
 	.experience {
@@ -196,6 +312,16 @@
 }
 
 @include breakpoint(small) {
+	#resume {
+		.resume-profile {
+			padding: 1.5em;
+		}
+
+		.resume-details {
+			grid-template-columns: 1fr;
+		}
+	}
+
 	.course-dot {
 		display: none;
 	}

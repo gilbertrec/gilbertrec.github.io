@@ -13,13 +13,13 @@ import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
-import Resume from '../pages/Resume';
-import Stats from '../pages/Stats';
+import Service from '../pages/Service';
+import Teaching from '../pages/Teaching';
 
 const pages = [
   {
     route: '/',
-    heading: 'About this site',
+    heading: 'About Me',
     component: Index,
   },
   {
@@ -29,23 +29,23 @@ const pages = [
   },
   {
     route: '/projects',
-    heading: 'Projects',
+    heading: 'Publications',
     component: Projects,
   },
   {
-    route: '/stats',
-    heading: 'Stats',
-    component: Stats,
+    route: '/service',
+    heading: 'Professional Service',
+    component: Service,
+  },
+  {
+    route: '/teaching',
+    heading: 'Teaching',
+    component: Teaching,
   },
   {
     route: '/contact',
     heading: 'Contact',
     component: Contact,
-  },
-  {
-    route: '/resume',
-    heading: 'Resume',
-    component: Resume,
   },
 ];
 

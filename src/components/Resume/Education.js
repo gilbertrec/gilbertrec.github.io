@@ -12,7 +12,7 @@ const Education = ({ data }) => (
     {data.map((degree) => (
       <Degree
         data={degree}
-        key={degree.school}
+        key={`${degree.degree}-${degree.year}`}
       />
     ))}
   </div>
@@ -23,7 +23,8 @@ Education.propTypes = {
     school: PropTypes.string,
     degree: PropTypes.string,
     link: PropTypes.string,
-    year: PropTypes.number,
+    year: PropTypes.string,
+    detail: PropTypes.string,
   })),
 };
 
