@@ -40,7 +40,7 @@ b {
 
 #header {
 	align-items: center;
-	background: rgba(243, 241, 235, 0.96);
+	background: rgba(240, 217, 194, 0.96);
 	border-bottom: 1px solid _palette(border);
 	height: 4.25em;
 	line-height: 4.25em;
@@ -238,6 +238,7 @@ button,
 			text-align: left;
 
 			h2 {
+				color: _palette(display-green);
 				font-family: _font(family-display);
 				font-size: 3.2em;
 				font-weight: 500;
@@ -329,7 +330,7 @@ button,
 	}
 
 	h3 {
-		color: _palette(fg-bold);
+		color: _palette(display-green);
 		font-family: _font(family-display);
 		font-size: 2.1em;
 		font-weight: 500;
@@ -685,7 +686,7 @@ ul.icons li > * {
 }
 
 .bm-overlay {
-	background: rgba(25, 50, 92, 0.28) !important;
+	background: rgba(35, 66, 56, 0.28) !important;
 }
 
 #header .bm-menu {
