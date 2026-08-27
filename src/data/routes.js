@@ -5,10 +5,6 @@ const routes = [
     path: '/',
   },
   {
-    label: 'About',
-    path: '/',
-  },
-  {
     label: 'Publications',
     path: '/projects',
   },

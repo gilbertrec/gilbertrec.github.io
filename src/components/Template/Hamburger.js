@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Menu from 'react-burger-menu/lib/menus/slide';
 import routes from '../../data/routes';
 
@@ -32,9 +32,14 @@ const Hamburger = () => {
         <ul className="hamburger-ul">
           {routes.map((l) => (
             <li key={l.label}>
-              <Link to={l.path} onClick={() => setOpen(false)}>
+              <NavLink
+                exact
+                activeClassName="active"
+                to={l.path}
+                onClick={() => setOpen(false)}
+              >
                 <h3 className={l.index && 'index-li'}>{l.label}</h3>
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>

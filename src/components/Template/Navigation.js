@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import Hamburger from './Hamburger';
 import routes from '../../data/routes';
@@ -16,7 +16,13 @@ const Navigation = () => (
       <ul>
         {routes.filter((l) => !l.index).map((l) => (
           <li key={l.label}>
-            <Link to={l.path}>{l.label}</Link>
+            <NavLink
+              exact
+              activeClassName="active"
+              to={l.path}
+            >
+              {l.label}
+            </NavLink>
           </li>
         ))}
       </ul>

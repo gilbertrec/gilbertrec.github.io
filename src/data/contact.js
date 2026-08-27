@@ -18,7 +18,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/gilrec/',
+    link: 'https://www.linkedin.com/in/gilbertrec/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
