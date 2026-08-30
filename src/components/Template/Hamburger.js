@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { NavLink } from 'react-router-dom';
 import Menu from 'react-burger-menu/lib/menus/slide';
+import ContactIcons from '../Contact/ContactIcons';
 import routes from '../../data/routes';
 
 const Hamburger = () => {
@@ -43,6 +44,10 @@ const Hamburger = () => {
             </li>
           ))}
         </ul>
+        <div className="mobile-contact">
+          <a href="mailto:gilberto.recupito@vub.be">gilberto.recupito@vub.be</a>
+          <ContactIcons />
+        </div>
       </Menu>
     </div>
   );

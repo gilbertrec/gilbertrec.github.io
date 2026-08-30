@@ -7,9 +7,6 @@ const { PUBLIC_URL } = process.env;
 
 const ResumeProfile = () => (
   <section className="resume-profile">
-    <div className="resume-profile-photo">
-      <img src={`${PUBLIC_URL}/images/me.png`} alt="Gilberto Recupito" />
-    </div>
     <div className="resume-profile-content">
       <p className="resume-kicker">Postdoctoral Researcher · Software Engineering for AI</p>
       <h3>Gilberto Recupito</h3>
