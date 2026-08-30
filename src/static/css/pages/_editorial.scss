@@ -1,7 +1,10 @@
 /* Editorial redesign: restrained academic profile, August 2026. */
 
 html {
-	background: _palette(bg-alt);
+	background-color: #f7f7f5;
+	background-image: url('../../images/paper-grey.webp');
+	background-repeat: repeat;
+	background-size: 720px 720px;
 }
 
 body,
@@ -15,7 +18,10 @@ textarea {
 }
 
 body {
-	background: _palette(bg-alt);
+	background-color: #f7f7f5;
+	background-image: url('../../images/paper-grey.webp');
+	background-repeat: repeat;
+	background-size: 720px 720px;
 	padding-top: 4.25em;
 }
 
@@ -40,14 +46,14 @@ b {
 
 #header {
 	align-items: center;
-	background: rgba(255, 235, 215, 0.96);
-	border-bottom: 1px solid _palette(border);
+	background: _palette(dark-tourquoise);
+	border-bottom: 1px solid rgba(247, 247, 245, 0.18);
 	height: 4.25em;
 	line-height: 4.25em;
 	padding: 0 2.75em;
 
 	a {
-		color: _palette(fg-bold);
+		color: #f7f7f5;
 	}
 
 	h1 {
@@ -169,6 +175,12 @@ b {
 		color: _palette(fg-light);
 		font-size: 0.78em;
 		line-height: 1.5;
+	}
+
+	> .icons {
+		color: _palette(fg-bold);
+		font-size: 0.88em;
+		margin: 0.65em 0 1.4em;
 	}
 
 	> a:last-child {
@@ -471,10 +483,10 @@ button,
 	}
 
 	.record-meta {
-		color: _palette(fg-light);
+		color: #000;
 		font-family: _font(family-fixed);
 		font-size: 0.68em;
-		font-weight: 400;
+		font-weight: 600;
 		letter-spacing: 0;
 		text-transform: none;
 	}
@@ -562,7 +574,9 @@ button,
 	}
 
 	.reference-number::before {
+		color: #000;
 		font-size: 0.68em;
+		font-weight: 600;
 	}
 
 	.publication-venue-tag,
@@ -741,7 +755,7 @@ ul.icons li > * {
 }
 
 #header .hamburger-container .menu-hover {
-	color: _palette(fg-bold);
+	color: #f7f7f5;
 }
 
 @media screen and (min-width: 981px) and (max-width: 1280px) {
@@ -832,6 +846,10 @@ ul.icons li > * {
 		display: block;
 		margin-bottom: 2.5em;
 		text-align: left;
+
+		.logo {
+			max-width: 220px;
+		}
 
 		header {
 			margin-bottom: 1.25em;
@@ -941,12 +959,16 @@ ul.icons li > * {
 	#intro {
 		padding: 0;
 		text-align: left;
+
+		.logo {
+			max-width: 9em;
+		}
 	}
 }
 
 @media (hover: none), (pointer: coarse) {
 	#header .hamburger-container .menu-hover:hover {
-		color: _palette(fg-bold);
+		color: #f7f7f5;
 	}
 
 	#header .bm-menu .hamburger-ul a:hover h3 {

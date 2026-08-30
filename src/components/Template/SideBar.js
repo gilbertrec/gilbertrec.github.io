@@ -1,15 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import ContactIcons from '../Contact/ContactIcons';
+
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
+      <Link to="/" className="logo">
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="Gilberto Recupito" />
+      </Link>
       <header>
         <h2>Gilberto Recupito</h2>
         <p><a href="mailto:gilberto.recupito@vub.be">gilberto.recupito@vub.be</a></p>
       </header>
+      <ContactIcons />
       <a href={`${PUBLIC_URL}/personal_doc/cv/GilbertoRecupitoCV-11-08-2026.pdf`} target="_blank" rel="noreferrer">
         <button type="button">Download CV · August 2026</button>
       </a>
