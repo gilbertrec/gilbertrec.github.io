@@ -24,11 +24,15 @@ const committees = [
   },
   {
     title: 'International Conference on Program Comprehension (ICPC)',
-    meta: 'ERA Track · 2027 · Dublin, Ireland',
+    meta: 'Research Track, ERA Track · 2027 · Dublin, Ireland',
   },
   {
     title: 'International Conference on the Foundations of Software Engineering (FSE)',
     meta: 'Industry Track · 2027 · Shenzhen, China',
+  },
+  {
+    title: '1st International Workshop on Human-First Generative Software Engineering (HUGS)',
+    meta: 'Program Committee · 2027 · Dublin, Ireland',
   },
   {
     title: 'International Conference on Automated Software Engineering (ASE)',
